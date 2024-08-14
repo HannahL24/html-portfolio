@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Agbalumo:200i,400&display=swap');
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #960BAF;
+  color: #FFFFFF;
+  margin: 30px;
+    }
+
+h1 {
+  text-align: center;
+font-family: 'Agbalumo';
+color: #E9DFEA;
+}
+
+form {
+  background-color: #82298A;
+padding: 30px;
+margin: auto;
+min-width: 250px;
+max-width: 300px;
+
+}
