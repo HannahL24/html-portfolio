@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="survey-style.css">
+<title>Explore Education - Survey Form</title>
+</head>
+<body>
+
+<h1 id="title">Explore Education - Survey Form</h1>
+<p id="description">Thank you for completing this form. This survey will help us to understand how you found our page. You can also provide us with any recommendations for products you would like us to create.</p>
+
+<form id="survey-form"  action="/action_page.php">
+
+  <label for="name" id="name-label">Name: <input id="name" type="text" required placeholder="Name"></label><br><br>
+  <label for="email" id="email-label">Email: <input id="email" type="email" required placeholder="Email"></label><br><br>
+  <label for="number" id="number-label">Year Group Taught: <input id="number" type="number" min="1" max="14" placeholder="Year"></label><br><br>
+  How many years have you taught for? <select id="dropdown">
+    <option>0-2</option>
+    <option>2-5</option>
+    <option>5-10</option>
+    <option>10-20</option>
+    <option>20+</option>
+</select><br><br>
+Where do you teach? <br>
+<input type="radio" name="location" id="UK" value="UK">
+<label for="UK">United Kingdom</label><br>
+<input type="radio" name="location" id="europe" value="europe">
+<label for="europe">Europe</label><br>
+<input type="radio" name="location" id="USA-canada" value="USA-canada">
+<label for="USA-canada">USA and Canada</label><br>
+<input type="radio" name="location" id="asia" value="asia">
+<label for="asia">Asia</label><br>
+<input type="radio" name="location" id="africa" value="africa">
+<label for="africa">Africa</label><br>
+<input type="radio" name="location" id="other" value="other">
+<label for="other">Other</label><br><br>
+
+What subject(s) do you lead? <br>
+<input type="checkbox" name="subject-lead" id="english" value="english">
+<label for="english">English/Literacy</label><br>
+<input type="checkbox" name="subject-lead" id="maths" value="maths">
+<label for="maths">Maths</label><br>
+<input type="checkbox" name="subject-lead" id="science" value="science">
+<label for="science">Science</label><br>
+<input type="checkbox" name="subject-lead" id="humanities" value="humanities">
+<label for="humanities">Humanities</label><br>
+<input type="checkbox" name="subject-lead" id="PE" value="PE">
+<label for="PE">PE</label><br>
+<input type="checkbox" name="subject-lead" id="other" value="other">
+<label for="other">Other</label><br>
+<input type="checkbox" name="subject-lead" id="none" value="none">
+<label for="none">None</label><br><br>
+
+What would you like us to create next?<br>
+<textarea id="comments" rows="3" cols="30">Type your recommendations here</textarea><br><br>
+
+<input type="submit" id="submit">
+</form>
+
+</body>
+</html>
+
+
+
+
